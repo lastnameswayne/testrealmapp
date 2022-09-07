@@ -56,7 +56,6 @@ const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
   return (
     <View style={styles.sectionContainer}>
-      <RealmPlugin realms={[realm]}/>
       <Text
         style={[
           styles.sectionTitle,
